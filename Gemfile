@@ -10,7 +10,7 @@ gem "sqlite3"
 
 gem "RedCloth"
 gem "formatize"
-gem "sanitize"
+gem "sanitize", ">= 2.0.5"
 gem "will_paginate"
 gem "acts_as_list"
 gem "aasm"
@@ -45,8 +45,8 @@ end
 
 group :test do
   gem "factory_girl_rails"
-  gem "capybara"
-  gem "cucumber-rails", :require => false
+  gem "capybara", ">= 2.0.2"
+  gem "cucumber-rails", ">= 1.3.0", :require => false
   gem "rspec-expectations"
   gem "database_cleaner"
 
