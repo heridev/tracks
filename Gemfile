@@ -38,7 +38,7 @@ gem 'jquery-rails'
 gem 'bcrypt-ruby'
 
 group :development do
-  gem "yard"
+  gem "yard", ">= 0.9.20"
   gem "tolk"
   gem "bullet"
 end
