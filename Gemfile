@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~>3.2'
+gem 'rails', '~> 5.2', '>= 5.2.4.6'
 
 # you may comment out the database driver you will not be using.
 # This will prevent a native build of the driver. Building native drivers is not 
@@ -15,16 +15,16 @@ gem "will_paginate"
 gem "acts_as_list"
 gem "aasm"
 gem "htmlentities"
-gem "swf_fu"
-gem "rails_autolink"
-gem "cache_digests"
+gem "swf_fu", ">= 2.0.3"
+gem "rails_autolink", ">= 1.1.0"
+gem "cache_digests", ">= 0.2.0"
 gem "rack-mini-profiler"
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails'
-  gem 'coffee-rails'
+  gem 'sass-rails', '>= 5.0.5'
+  gem 'coffee-rails', '>= 4.2.2'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer'
@@ -32,7 +32,7 @@ group :assets do
   gem 'uglifier'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 
 # To use ActiveModel has_secure_password
 gem 'bcrypt-ruby'
@@ -44,7 +44,7 @@ group :development do
 end
 
 group :test do
-  gem "factory_girl_rails"
+  gem "factory_girl_rails", ">= 4.2.1"
   gem "capybara"
   gem "cucumber-rails", :require => false
   gem "rspec-expectations"
