@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~>3.2'
+gem 'rails', '~> 4.0', '>= 4.0.0'
 
 # you may comment out the database driver you will not be using.
 # This will prevent a native build of the driver. Building native drivers is not 
@@ -15,8 +15,8 @@ gem "will_paginate"
 gem "acts_as_list"
 gem "aasm"
 gem "htmlentities"
-gem "swf_fu"
-gem "rails_autolink"
+gem "swf_fu", ">= 2.0.3"
+gem "rails_autolink", ">= 1.1.0"
 gem "cache_digests"
 gem "rack-mini-profiler"
 
